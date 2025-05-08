@@ -1,0 +1,70 @@
+h1,h2,h3{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+button{
+    border: 0;
+    background-color: #fff;
+    padding: 0;
+}
+/* ここからメニューです */
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.header-nav h1{
+    font-size: 32px;
+}
+.main-memu{
+    display: flex;
+}
+.main-memu li{
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    /* padding: 20px; */
+    /* border: 2px solid blue; */
+    /* background-color: bisque; */
+}
+
+.header-taglist{
+    display: flex;
+    margin: 30px 0;
+}
+.header-left{
+    width: 50%;
+}
+.header-right{
+    width: 50%;
+}
+.header-taglist li{
+    padding: 12px 23px;
+    background-color: #1086f5f0;
+    color: #fff;
+    margin-right: 10px;
+}
+.header-left button{
+    background-color: #333;
+    color: #fff;
+    padding: 14px 80px;
+    border-radius: 50px;
+}
+.header-hiro{
+    display: flex;
+}
+.header-right img{
+    width: 100%;
+    /* header-rightに対して100% */
+}
