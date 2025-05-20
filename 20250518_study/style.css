@@ -30,13 +30,13 @@ main{
 .card{
     display: flex;
     width: 243px;
-    height: 148px;
+    /* height: 148px; */
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 5px black;
     gap: 7px;
-    align-items: center;
+    /* align-items: center; */
     box-shadow: 0 2px 5px;
 
 }
@@ -57,7 +57,7 @@ main{
 }
 .text h2{
     font-size: 20px;
-    text-align: center;
+    /* text-align: center; */
     /* height: 24px; */
     /* width: 132px; */
     margin: 0;
@@ -66,15 +66,16 @@ main{
 .text p{
     font-size: 10px;
     /* height: 36px; */
-    text-align: center;
+    /* text-align: center; */
 
 }
 
 .text a{
     font-size: 10px;
-    text-align: center;
+    /* text-align: center; */
     /* width: 90px; */
     /* height: 12px; */
+    color: black;
 
 
 }
